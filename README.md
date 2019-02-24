@@ -1,2 +1,0 @@
-# FindJobOnHH
-VSU project
