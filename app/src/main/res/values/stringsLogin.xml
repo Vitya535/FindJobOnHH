@@ -1,12 +1,13 @@
 <resources>
     <string name="app_name">FindJobOnHH</string>
     <string name="LoginButtonText">Зарегистрироваться</string>
-    <string name="HeaderText">Регистрация соискателя</string>
+    <string name="LoginHeaderText">Регистрация соискателя</string>
     <string name="EmailOrPhoneText">Email или телефон</string>
     <string name="NameLabelText">Имя</string>
     <string name="SurnameLabelText">Фамилия</string>
-    <string name="LogupText">Войти</string>
     <string name="IsAlreadyLoginLabelText">Уже зарегистрированы?</string>
     <string name="LoginFromWebSitesLabelText">Регистрация через соцсеть:</string>
     <string name="VkIconText">Иконка ВК</string>
+    <string name="SurnameHint">Фамилия</string>
+    <string name="NameHint">Имя</string>
 </resources>

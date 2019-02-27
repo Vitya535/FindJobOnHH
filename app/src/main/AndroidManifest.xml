@@ -29,6 +29,25 @@
                     android:pathPrefix="/login" />
             </intent-filter>
         </activity>
+        <activity android:name=".LogupActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="http"
+                    android:host="localhost"
+                    android:port="8080"
+                    android:pathPrefix="/logup" />
+            </intent-filter>
+        </activity>
         <activity android:name=".SummaryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -64,6 +83,25 @@
                     android:host="localhost"
                     android:port="8080"
                     android:pathPrefix="/founded_vacancies" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".GetPasswordActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="http"
+                    android:host="localhost"
+                    android:port="8080"
+                    android:pathPrefix="/get_password" />
             </intent-filter>
         </activity>
     </application>

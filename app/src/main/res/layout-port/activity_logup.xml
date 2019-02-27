@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/loginFromVK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/VkIconText"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LogupFromWebSites"
+        app:srcCompat="@drawable/vk" />
+
+    <TextView
+        android:id="@+id/HeaderLogup"
+        android:layout_width="285dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/LogupHeaderText"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EmailOrPhoneInput"
+        android:layout_width="382dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_input_style"
+        android:ems="10"
+        android:hint="@string/EmailOrPhoneHint"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress|phone"
+        android:padding="8dp"
+        android:textCursorDrawable="@drawable/login_input_cursor_style"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HeaderLogup"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/PasswordInput"
+        android:layout_width="382dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/login_input_style"
+        android:ems="10"
+        android:hint="@string/PasswordHint"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textCursorDrawable="@drawable/login_input_cursor_style"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmailOrPhoneInput"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/ButtonLogup"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/ButtonLogupHint"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordInput" />
+
+    <CheckBox
+        android:id="@+id/RememberMeCheck"
+        android:layout_width="132dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/RememberMeText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonLogup" />
+
+    <TextView
+        android:id="@+id/GetPassword"
+        android:layout_width="200dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="end"
+        android:text="@string/GetPasswordButtonText"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:onClick="getPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonLogup" />
+
+    <TextView
+        android:id="@+id/LogupFromWebSites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:text="@string/LogupFromWebSitesText"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonLogup" />
+
+    <TextView
+        android:id="@+id/Registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="login"
+        android:text="@string/RegistrationText"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginFromVK" />
+
+
+</android.support.constraint.ConstraintLayout>
