@@ -972,8 +972,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -144,
-											"top": -112,
+											"left": -176,
+											"top": -160,
 											"height": 13
 										},
 										{
@@ -983,11 +983,11 @@
 												"$ref": "AAAAAAFpi2JhmZLoeRw="
 											},
 											"font": "Arial;13;1",
-											"left": 583.5,
-											"top": 67.5,
-											"width": 117,
+											"left": 577,
+											"top": 43.5,
+											"width": 163,
 											"height": 13,
-											"text": "Загрузить резюме"
+											"text": "Ввести данные в резюме"
 										},
 										{
 											"_type": "LabelView",
@@ -997,8 +997,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -144,
-											"top": -112,
+											"left": -176,
+											"top": -160,
 											"width": 110.5126953125,
 											"height": 13,
 											"text": "(from UseCaseHH)"
@@ -1011,16 +1011,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -144,
-											"top": -112,
+											"left": -176,
+											"top": -160,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 578.5,
-									"top": 60.5,
-									"width": 127.45068359375,
+									"left": 572,
+									"top": 36.5,
+									"width": 173.61083984375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFpi2JhmZLpfg8="
@@ -1046,8 +1046,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -72,
-									"top": -56,
+									"left": -88,
+									"top": -80,
 									"width": 10,
 									"height": 10
 								},
@@ -1062,8 +1062,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -72,
-									"top": -56,
+									"left": -88,
+									"top": -80,
 									"width": 10,
 									"height": 10
 								},
@@ -1078,8 +1078,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -72,
-									"top": -56,
+									"left": -88,
+									"top": -80,
 									"width": 10,
 									"height": 10
 								},
@@ -1094,8 +1094,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -72,
-									"top": -56,
+									"left": -88,
+									"top": -80,
 									"width": 10,
 									"height": 10
 								},
@@ -1110,17 +1110,17 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -72,
-									"top": -56,
+									"left": -88,
+									"top": -80,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 552,
-							"top": 56,
-							"width": 180,
+							"left": 536,
+							"top": 32,
+							"width": 245,
 							"height": 35,
 							"nameCompartment": {
 								"$ref": "AAAAAAFpi2JhmZLoeRw="
@@ -3621,8 +3621,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 521,
-									"top": 105,
+									"left": 633,
+									"top": 145,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -3642,8 +3642,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 506,
-									"top": 105,
+									"left": 618,
+									"top": 145,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3663,8 +3663,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 550,
-									"top": 106,
+									"left": 662,
+									"top": 146,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3747,8 +3747,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 526,
-									"top": 52,
+									"left": 633,
+									"top": 85,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -3767,8 +3767,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 523,
-									"top": 38,
+									"left": 619,
+									"top": 88,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -3787,8 +3787,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 530,
-									"top": 79,
+									"left": 660,
+									"top": 81,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -3832,7 +3832,7 @@
 							"tail": {
 								"$ref": "AAAAAAFpi0qXG5I3JWg="
 							},
-							"points": "519:152;536:152;536:73;552:73",
+							"points": "519:152;648:152;648:66",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFpi4lbup9E3MU="
@@ -7656,7 +7656,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFpiwpez5IEY6c="
 					},
-					"name": "Загрузить резюме"
+					"name": "Ввести данные в резюме"
 				},
 				{
 					"_type": "UMLUseCase",
