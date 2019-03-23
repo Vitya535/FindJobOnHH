@@ -13,12 +13,12 @@ public class LogupActivity extends AppCompatActivity {
         setContentView(R.layout.activity_logup);
     }
 
-    public void login(View view) {
+    public void transitionToLogin(View view) {
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
 
-    public void getPassword(View view) {
+    public void transitionToGetPassword(View view) {
         Intent intent = new Intent(this, GetPasswordActivity.class);
         startActivity(intent);
     }

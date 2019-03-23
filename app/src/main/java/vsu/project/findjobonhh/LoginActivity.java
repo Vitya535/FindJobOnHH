@@ -7,6 +7,8 @@ import android.view.View;
 
 // https://developer.android.com/studio/write/app-link-indexing - что-то интересное
 
+// https://futurestud.io/tutorials/android-basic-authentication-with-retrofit - про авторизацию
+
 public class LoginActivity extends AppCompatActivity {
 
     @Override
@@ -15,8 +17,13 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
-    public void logup(View view) {
+    public void transitionToLogup(View view) {
         Intent intent = new Intent(this, LogupActivity.class);
+        startActivity(intent);
+    }
+
+    public void login(View view) {
+        Intent intent = new Intent(this, SummaryActivity.class);
         startActivity(intent);
     }
 }
