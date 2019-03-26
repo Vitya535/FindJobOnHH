@@ -1974,7 +1974,7 @@
 											"top": 155.5,
 											"width": 125,
 											"height": 13,
-											"text": "Разавторизоваться"
+											"text": "Выйти из системы"
 										},
 										{
 											"_type": "LabelView",
@@ -2007,7 +2007,7 @@
 									"font": "Arial;13;0",
 									"left": 356,
 									"top": 148.5,
-									"width": 135.60107421875,
+									"width": 135,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFpi4AXfZQEfr4="
@@ -6610,7 +6610,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFpiwpez5IEY6c="
 					},
-					"name": "Разавторизоваться"
+					"name": "Выйти из системы"
 				},
 				{
 					"_type": "UMLUseCase",

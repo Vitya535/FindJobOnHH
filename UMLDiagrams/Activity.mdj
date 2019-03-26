@@ -1210,7 +1210,7 @@
 													"top": 663,
 													"width": 125.60107421875,
 													"height": 13,
-													"text": "Разавторизоваться"
+													"text": "Выйти из системы"
 												},
 												{
 													"_type": "LabelView",
@@ -3010,7 +3010,7 @@
 													"font": "Arial;13;0",
 													"left": -80,
 													"top": -32,
-													"width": 79.44091796875,
+													"width": 81,
 													"height": 13,
 													"text": "(from Activity)"
 												},
@@ -3985,7 +3985,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjOmfVG9JwxM="
 							},
-							"name": "Разавторизоваться"
+							"name": "Выйти из системы"
 						},
 						{
 							"_type": "UMLAction",

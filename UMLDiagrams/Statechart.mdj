@@ -1464,7 +1464,7 @@
 										"$ref": "AAAAAAFpuN2YqUyiIek="
 									},
 									"edgePosition": 1,
-									"text": "Разавторизоваться"
+									"text": "Выйти из системы"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -2893,7 +2893,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFpuN2YnEyh5BQ="
 									},
-									"name": "Разавторизоваться"
+									"name": "Выйти из системы"
 								}
 							]
 						},

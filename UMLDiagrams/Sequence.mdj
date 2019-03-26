@@ -114,9 +114,9 @@
 													"font": "Arial;13;1",
 													"left": 461,
 													"top": 47,
-													"width": 115.49169921875,
+													"width": 120.373046875,
 													"height": 13,
-													"text": "List of Vacancies"
+													"text": "Список вакансий"
 												},
 												{
 													"_type": "LabelView",
@@ -147,7 +147,7 @@
 											"font": "Arial;13;0",
 											"left": 456,
 											"top": 40,
-											"width": 125.49169921875,
+											"width": 130.373046875,
 											"height": 40,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAFpqsH/a+G3OD4="
@@ -172,7 +172,7 @@
 												"$ref": "AAAAAAFpqsH/a+G0zCE="
 											},
 											"font": "Arial;13;0",
-											"left": 519,
+											"left": 521,
 											"top": 80,
 											"width": 1,
 											"height": 617
@@ -181,7 +181,7 @@
 									"font": "Arial;13;0",
 									"left": 456,
 									"top": 40,
-									"width": 125.49169921875,
+									"width": 130.373046875,
 									"height": 657,
 									"nameCompartment": {
 										"$ref": "AAAAAAFpqsH/a+G26Ow="
@@ -230,9 +230,9 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 47,
-													"width": 62.736328125,
+													"width": 102.18701171875,
 													"height": 13,
-													"text": "User"
+													"text": "Пользователь"
 												},
 												{
 													"_type": "LabelView",
@@ -263,7 +263,7 @@
 											"font": "Arial;13;0",
 											"left": 8,
 											"top": 40,
-											"width": 72.736328125,
+											"width": 112.18701171875,
 											"height": 40,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAFpqsLBHeHgcKg="
@@ -288,7 +288,7 @@
 												"$ref": "AAAAAAFpqsLBHeHdS/Q="
 											},
 											"font": "Arial;13;0",
-											"left": 44,
+											"left": 64,
 											"top": 80,
 											"width": 1,
 											"height": 625
@@ -297,7 +297,7 @@
 									"font": "Arial;13;0",
 									"left": 8,
 									"top": 40,
-									"width": 72.736328125,
+									"width": 112.18701171875,
 									"height": 665,
 									"nameCompartment": {
 										"$ref": "AAAAAAFpqsLBHeHfRjY="
@@ -334,7 +334,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": -1168,
+													"left": -1088,
 													"height": 13
 												},
 												{
@@ -344,11 +344,11 @@
 														"$ref": "AAAAAAFpqsLN/uH+BlY="
 													},
 													"font": "Arial;13;1",
-													"left": 197,
+													"left": 237,
 													"top": 47,
 													"width": 67.763671875,
 													"height": 13,
-													"text": "System"
+													"text": "Система"
 												},
 												{
 													"_type": "LabelView",
@@ -358,7 +358,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": -1168,
+													"left": -1088,
 													"width": 115.59716796875,
 													"height": 13,
 													"text": "(from SequenceHH)"
@@ -371,13 +371,13 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": -1168,
+													"left": -1088,
 													"height": 13,
 													"horizontalAlignment": 1
 												}
 											],
 											"font": "Arial;13;0",
-											"left": 192,
+											"left": 232,
 											"top": 40,
 											"width": 77.763671875,
 											"height": 40,
@@ -404,14 +404,14 @@
 												"$ref": "AAAAAAFpqsLN/uH8LPo="
 											},
 											"font": "Arial;13;0",
-											"left": 231,
+											"left": 271,
 											"top": 80,
 											"width": 1,
 											"height": 625
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 192,
+									"left": 232,
 									"top": 40,
 									"width": 77.763671875,
 									"height": 665,
@@ -442,7 +442,7 @@
 												"$ref": "AAAAAAFpjIo8vvM9OtU="
 											},
 											"font": "Arial;13;0",
-											"left": 45,
+											"left": 75,
 											"top": 88,
 											"width": 179.93701171875,
 											"height": 13,
@@ -452,7 +452,7 @@
 												"$ref": "AAAAAAFpjIo8v/M+hnA="
 											},
 											"edgePosition": 1,
-											"text": "1 : Login or registration request"
+											"text": "1 : Запрос на регистрацию"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -465,7 +465,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 134,
+											"left": 164,
 											"top": 73,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -486,7 +486,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 134,
+											"left": 164,
 											"top": 108,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -506,7 +506,7 @@
 												"$ref": "AAAAAAFpjIo8vvM9OtU="
 											},
 											"font": "Arial;13;0",
-											"left": 224,
+											"left": 264,
 											"top": 104,
 											"width": 14,
 											"height": 29
@@ -519,7 +519,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpqsLBHuHkzH8="
 									},
-									"points": "44:104;224:104",
+									"points": "64:104;264:104",
 									"nameLabel": {
 										"$ref": "AAAAAAFpjIo8wPM/Fzw="
 									},
@@ -553,17 +553,17 @@
 												"$ref": "AAAAAAFpuUGvNknkiys="
 											},
 											"font": "Arial;13;0",
-											"left": 239,
-											"top": 104,
-											"width": 78.04443359375,
+											"left": 287,
+											"top": 96,
+											"width": 134.00537109375,
 											"height": 13,
-											"alpha": 2.638748058784854,
-											"distance": 22.825424421026653,
+											"alpha": 2.108079947544063,
+											"distance": 54.70831746635972,
 											"hostEdge": {
 												"$ref": "AAAAAAFpuUGvNknlW/A="
 											},
 											"edgePosition": 1,
-											"text": "2 : Validate"
+											"text": "2 : Валидация данных"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -576,7 +576,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 291,
+											"left": 331,
 											"top": 123,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -597,7 +597,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 257,
+											"left": 297,
 											"top": 124,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -617,7 +617,7 @@
 												"$ref": "AAAAAAFpuUGvNknkiys="
 											},
 											"font": "Arial;13;0",
-											"left": 224,
+											"left": 264,
 											"top": 140,
 											"width": 14,
 											"height": 29
@@ -630,7 +630,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpqsLN/uIDno0="
 									},
-									"points": "237:120;267:120;267:140;237:140",
+									"points": "277:120;307:120;307:140;277:140",
 									"nameLabel": {
 										"$ref": "AAAAAAFpuUGvNknma0c="
 									},
@@ -664,17 +664,17 @@
 												"$ref": "AAAAAAFpuUHeaUn74z8="
 											},
 											"font": "Arial;13;0",
-											"left": 55,
-											"top": 167,
-											"width": 218.94970703125,
+											"left": 103,
+											"top": 175,
+											"width": 248.8916015625,
 											"height": 13,
-											"alpha": 2.7901479673237217,
-											"distance": 31.953090617340916,
+											"alpha": 2.848680299944171,
+											"distance": 65.80273550544841,
 											"hostEdge": {
 												"$ref": "AAAAAAFpuUHeaUn8FPc="
 											},
 											"edgePosition": 1,
-											"text": "3 : Send message for successful login"
+											"text": "3 : Сообщение об успешной регистрации"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -687,7 +687,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 133,
+											"left": 163,
 											"top": 182,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -708,7 +708,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 134,
+											"left": 164,
 											"top": 147,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -729,7 +729,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 44,
+											"left": 64,
 											"top": 163,
 											"width": 14,
 											"height": 25
@@ -742,7 +742,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpqsLN/uIDno0="
 									},
-									"points": "224:163;44:163",
+									"points": "264:163;64:163",
 									"nameLabel": {
 										"$ref": "AAAAAAFpuUHeaUn9uus="
 									},
@@ -776,17 +776,17 @@
 												"$ref": "AAAAAAFpuUJw30oT22s="
 											},
 											"font": "Arial;13;0",
-											"left": 54,
-											"top": 208,
-											"width": 148.865234375,
+											"left": 78,
+											"top": 216,
+											"width": 274.1044921875,
 											"height": 13,
-											"alpha": 1.2220243816051408,
-											"distance": 58.52349955359813,
+											"alpha": 1.3451941008296908,
+											"distance": 125.1718818265508,
 											"hostEdge": {
 												"$ref": "AAAAAAFpuUJw30oUMDk="
 											},
 											"edgePosition": 1,
-											"text": "4 : Show main page"
+											"text": "4 : Показать пользователю главную страницу"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -799,7 +799,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 98,
+											"left": 118,
 											"top": 187,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -820,7 +820,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 64,
+											"left": 84,
 											"top": 188,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -840,7 +840,7 @@
 												"$ref": "AAAAAAFpuUJw30oT22s="
 											},
 											"font": "Arial;13;0",
-											"left": 37,
+											"left": 57,
 											"top": 204,
 											"width": 14,
 											"height": 57
@@ -853,7 +853,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpqsLBHuHkzH8="
 									},
-									"points": "44:184;74:184;74:204;50:204",
+									"points": "64:184;94:184;94:204;70:204",
 									"nameLabel": {
 										"$ref": "AAAAAAFpuUJw30oVnCQ="
 									},
@@ -887,9 +887,9 @@
 												"$ref": "AAAAAAFpuOdXb0Yj+e4="
 											},
 											"font": "Arial;13;0",
-											"left": 61,
+											"left": 82,
 											"top": 320,
-											"width": 146.68798828125,
+											"width": 164.27099609375,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -897,7 +897,7 @@
 												"$ref": "AAAAAAFpuOdXcEYkAtM="
 											},
 											"edgePosition": 1,
-											"text": "5 : Request for vacancies"
+											"text": "5 : Запрос списка вакансий"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -910,7 +910,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 134,
+											"left": 164,
 											"top": 305,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -931,7 +931,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 134,
+											"left": 164,
 											"top": 340,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -951,7 +951,7 @@
 												"$ref": "AAAAAAFpuOdXb0Yj+e4="
 											},
 											"font": "Arial;13;0",
-											"left": 224,
+											"left": 264,
 											"top": 336,
 											"width": 14,
 											"height": 41
@@ -964,7 +964,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpqsLBHuHkzH8="
 									},
-									"points": "44:336;224:336",
+									"points": "64:336;264:336",
 									"nameLabel": {
 										"$ref": "AAAAAAFpuOdXcEYlV/4="
 									},
@@ -998,9 +998,9 @@
 												"$ref": "AAAAAAFpuOeeqkY5h4w="
 											},
 											"font": "Arial;13;0",
-											"left": 282,
+											"left": 299,
 											"top": 323,
-											"width": 184.9833984375,
+											"width": 193.1591796875,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1008,7 +1008,7 @@
 												"$ref": "AAAAAAFpuOeeqkY6O1Q="
 											},
 											"edgePosition": 1,
-											"text": "6 : Fetching the list of vacancies"
+											"text": "6 : Извлечение списка вакансий"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1021,7 +1021,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 374,
+											"left": 395,
 											"top": 308,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -1042,7 +1042,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 374,
+											"left": 395,
 											"top": 343,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -1062,7 +1062,7 @@
 												"$ref": "AAAAAAFpuOeeqkY5h4w="
 											},
 											"font": "Arial;13;0",
-											"left": 512,
+											"left": 514,
 											"top": 339,
 											"width": 14,
 											"height": 54
@@ -1075,7 +1075,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpqsLN/uIDno0="
 									},
-									"points": "237:339;512:339",
+									"points": "277:339;514:339",
 									"nameLabel": {
 										"$ref": "AAAAAAFpuOeeqkY7AfM="
 									},
@@ -1109,9 +1109,9 @@
 												"$ref": "AAAAAAFpuOiez0bQD2o="
 											},
 											"font": "Arial;13;0",
-											"left": 235,
+											"left": 229,
 											"top": 388,
-											"width": 84.5380859375,
+											"width": 119.8564453125,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1119,7 +1119,7 @@
 												"$ref": "AAAAAAFpuOiez0bRK/M="
 											},
 											"edgePosition": 1,
-											"text": "7 : send data"
+											"text": "7 : Отправка списка"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1132,7 +1132,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 277,
+											"left": 288,
 											"top": 403,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -1153,7 +1153,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 278,
+											"left": 289,
 											"top": 368,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -1174,7 +1174,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 44,
+											"left": 64,
 											"top": 384,
 											"width": 14,
 											"height": 25
@@ -1187,7 +1187,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpqsH/bOG7jgw="
 									},
-									"points": "512:384;44:384",
+									"points": "514:384;64:384",
 									"nameLabel": {
 										"$ref": "AAAAAAFpuOiez0bSCc4="
 									},
@@ -1221,17 +1221,17 @@
 												"$ref": "AAAAAAFpuUUJy0pXoq8="
 											},
 											"font": "Arial;13;0",
-											"left": 39,
+											"left": 78,
 											"top": 432,
-											"width": 205.22607421875,
+											"width": 264.95751953125,
 											"height": 13,
-											"alpha": 1.1801883348723514,
-											"distance": 73.53910524340094,
+											"alpha": 1.3358969867334478,
+											"distance": 120.30378215168466,
 											"hostEdge": {
 												"$ref": "AAAAAAFpuUUJzEpY1nI="
 											},
 											"edgePosition": 1,
-											"text": "8 : Show page with vacancies"
+											"text": "8 : Показать пользователю список вакансий"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1244,7 +1244,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 98,
+											"left": 118,
 											"top": 403,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -1265,7 +1265,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 64,
+											"left": 84,
 											"top": 404,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -1285,7 +1285,7 @@
 												"$ref": "AAAAAAFpuUUJy0pXoq8="
 											},
 											"font": "Arial;13;0",
-											"left": 37,
+											"left": 57,
 											"top": 420,
 											"width": 14,
 											"height": 29
@@ -1298,7 +1298,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpqsLBHuHkzH8="
 									},
-									"points": "44:400;74:400;74:420;50:420",
+									"points": "64:400;94:400;94:420;70:420",
 									"nameLabel": {
 										"$ref": "AAAAAAFpuUUJzEpZQGs="
 									},
@@ -1332,9 +1332,9 @@
 												"$ref": "AAAAAAFpuOmwB0cDpEU="
 											},
 											"font": "Arial;13;0",
-											"left": 45,
+											"left": 65,
 											"top": 485,
-											"width": 178.4833984375,
+											"width": 199.15771484375,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1342,7 +1342,7 @@
 												"$ref": "AAAAAAFpuOmwB0cEmrc="
 											},
 											"edgePosition": 1,
-											"text": "9 : Request for except vacancy"
+											"text": "9 : Запрос на удаление вакансий"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1355,7 +1355,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 134,
+											"left": 164,
 											"top": 470,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -1376,7 +1376,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 134,
+											"left": 164,
 											"top": 505,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -1396,7 +1396,7 @@
 												"$ref": "AAAAAAFpuOmwB0cDpEU="
 											},
 											"font": "Arial;13;0",
-											"left": 224,
+											"left": 264,
 											"top": 501,
 											"width": 14,
 											"height": 52
@@ -1409,7 +1409,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpqsLBHuHkzH8="
 									},
-									"points": "44:501;224:501",
+									"points": "64:501;264:501",
 									"nameLabel": {
 										"$ref": "AAAAAAFpuOmwB0cFSIc="
 									},
@@ -1443,9 +1443,9 @@
 												"$ref": "AAAAAAFpuUc90Uqgg1k="
 											},
 											"font": "Arial;13;0",
-											"left": 565,
+											"left": 554,
 											"top": 488,
-											"width": 114.17529296875,
+											"width": 142.84765625,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1453,7 +1453,7 @@
 												"$ref": "AAAAAAFpuUc90UqhuRo="
 											},
 											"edgePosition": 1,
-											"text": "10 : Delete vacancy"
+											"text": "10 : Удаление вакансии"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1466,7 +1466,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 622,
+											"left": 625,
 											"top": 473,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -1487,7 +1487,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 622,
+											"left": 625,
 											"top": 508,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -1507,7 +1507,7 @@
 												"$ref": "AAAAAAFpuUc90Uqgg1k="
 											},
 											"font": "Arial;13;0",
-											"left": 725,
+											"left": 730,
 											"top": 504,
 											"width": 14,
 											"height": 65
@@ -1520,7 +1520,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpqsH/bOG7jgw="
 									},
-									"points": "519:504;725:504",
+									"points": "521:504;730:504",
 									"nameLabel": {
 										"$ref": "AAAAAAFpuUc90kqiGXQ="
 									},
@@ -1554,9 +1554,9 @@
 												"$ref": "AAAAAAFpuOoC90cZOHQ="
 											},
 											"font": "Arial;13;0",
-											"left": 281,
+											"left": 294,
 											"top": 489,
-											"width": 187.17333984375,
+											"width": 202.8330078125,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1564,7 +1564,7 @@
 												"$ref": "AAAAAAFpuOoC90catrg="
 											},
 											"edgePosition": 1,
-											"text": "11 : Except vacancy from the list"
+											"text": "11 : Удаление вакансий из списка"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1577,7 +1577,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 374,
+											"left": 395,
 											"top": 474,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -1598,7 +1598,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 374,
+											"left": 395,
 											"top": 509,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -1618,7 +1618,7 @@
 												"$ref": "AAAAAAFpuOoC90cZOHQ="
 											},
 											"font": "Arial;13;0",
-											"left": 512,
+											"left": 514,
 											"top": 505,
 											"width": 14,
 											"height": 64
@@ -1631,7 +1631,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpqsLN/uIDno0="
 									},
-									"points": "237:505;512:505",
+									"points": "277:505;514:505",
 									"nameLabel": {
 										"$ref": "AAAAAAFpuOoC90cbgYM="
 									},
@@ -1684,9 +1684,9 @@
 													"font": "Arial;13;1",
 													"left": 701,
 													"top": 47,
-													"width": 62.736328125,
+													"width": 71.013671875,
 													"height": 13,
-													"text": "Vacancy"
+													"text": "Вакансия"
 												},
 												{
 													"_type": "LabelView",
@@ -1715,7 +1715,7 @@
 											"font": "Arial;13;0",
 											"left": 696,
 											"top": 40,
-											"width": 72.736328125,
+											"width": 81.013671875,
 											"height": 40,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAFpuUcGKUqC1wk="
@@ -1740,7 +1740,7 @@
 												"$ref": "AAAAAAFpuUcGKUp/+p8="
 											},
 											"font": "Arial;13;0",
-											"left": 732,
+											"left": 737,
 											"top": 80,
 											"width": 1,
 											"height": 617
@@ -1749,7 +1749,7 @@
 									"font": "Arial;13;0",
 									"left": 696,
 									"top": 40,
-									"width": 72.736328125,
+									"width": 81.013671875,
 									"height": 657,
 									"nameCompartment": {
 										"$ref": "AAAAAAFpuUcGKUqBxYk="
@@ -1778,7 +1778,7 @@
 												"$ref": "AAAAAAFpuOpEH0cwHJM="
 											},
 											"font": "Arial;13;0",
-											"left": 157,
+											"left": 168,
 											"top": 564,
 											"width": 240.63330078125,
 											"height": 13,
@@ -1788,7 +1788,7 @@
 												"$ref": "AAAAAAFpuOpEH0cxM/Q="
 											},
 											"edgePosition": 1,
-											"text": "12 : Send message for success excepting"
+											"text": "12 : Сообщение об успешном удалении"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1801,7 +1801,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 277,
+											"left": 288,
 											"top": 579,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -1822,7 +1822,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 278,
+											"left": 289,
 											"top": 544,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -1843,7 +1843,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 44,
+											"left": 64,
 											"top": 560,
 											"width": 14,
 											"height": 25
@@ -1856,7 +1856,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpqsH/bOG7jgw="
 									},
-									"points": "512:560;44:560",
+									"points": "514:560;64:560",
 									"nameLabel": {
 										"$ref": "AAAAAAFpuOpEH0cyDQ4="
 									},
@@ -1890,9 +1890,9 @@
 												"$ref": "AAAAAAFpuUew3Eq3sOk="
 											},
 											"font": "Arial;13;0",
-											"left": 562,
+											"left": 554,
 											"top": 564,
-											"width": 125.01708984375,
+											"width": 146.50390625,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1900,7 +1900,7 @@
 												"$ref": "AAAAAAFpuUew3Eq46OQ="
 											},
 											"edgePosition": 1,
-											"text": "13 : successful delete"
+											"text": "13 : Успешное удаление"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1913,7 +1913,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 624,
+											"left": 627,
 											"top": 579,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -1934,7 +1934,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 625,
+											"left": 628,
 											"top": 544,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -1955,7 +1955,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 512,
+											"left": 514,
 											"top": 560,
 											"width": 14,
 											"height": 25
@@ -1968,7 +1968,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpuUcGKUqGr9s="
 									},
-									"points": "725:560;525:560",
+									"points": "730:560;527:560",
 									"nameLabel": {
 										"$ref": "AAAAAAFpuUew3Eq5AnA="
 									},
@@ -2002,17 +2002,17 @@
 												"$ref": "AAAAAAFpuUhQUErbBOg="
 											},
 											"font": "Arial;13;0",
-											"left": 54,
-											"top": 600,
-											"width": 178.49609375,
+											"left": 78,
+											"top": 608,
+											"width": 350.56201171875,
 											"height": 13,
-											"alpha": 1.2924957055256294,
-											"distance": 72.80109889280519,
+											"alpha": 1.3975496709550235,
+											"distance": 162.43152403397562,
 											"hostEdge": {
 												"$ref": "AAAAAAFpuUhQUErcDFI="
 											},
 											"edgePosition": 1,
-											"text": "14 : Show page with vacancies"
+											"text": "14 : Показать пользователю измененный список вакансий"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2025,7 +2025,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 98,
+											"left": 118,
 											"top": 579,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -2046,7 +2046,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 64,
+											"left": 84,
 											"top": 580,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -2066,7 +2066,7 @@
 												"$ref": "AAAAAAFpuUhQUErbBOg="
 											},
 											"font": "Arial;13;0",
-											"left": 37,
+											"left": 57,
 											"top": 596,
 											"width": 14,
 											"height": 29
@@ -2079,7 +2079,7 @@
 									"tail": {
 										"$ref": "AAAAAAFpqsLBHuHkzH8="
 									},
-									"points": "44:576;74:576;74:596;50:596",
+									"points": "64:576;94:576;94:596;70:596",
 									"nameLabel": {
 										"$ref": "AAAAAAFpuUhQUUrdssc="
 									},
@@ -2121,7 +2121,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "Login or registration request",
+							"name": "Запрос на регистрацию",
 							"source": {
 								"$ref": "AAAAAAFpqsLBHeHdS/Q="
 							},
@@ -2135,7 +2135,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "Validate",
+							"name": "Валидация данных",
 							"source": {
 								"$ref": "AAAAAAFpqsLN/uH8LPo="
 							},
@@ -2149,7 +2149,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "Send message for successful login",
+							"name": "Сообщение об успешной регистрации",
 							"source": {
 								"$ref": "AAAAAAFpqsLN/uH8LPo="
 							},
@@ -2164,7 +2164,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "Show main page",
+							"name": "Показать пользователю главную страницу",
 							"source": {
 								"$ref": "AAAAAAFpqsLBHeHdS/Q="
 							},
@@ -2178,7 +2178,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "Request for vacancies",
+							"name": "Запрос списка вакансий",
 							"source": {
 								"$ref": "AAAAAAFpqsLBHeHdS/Q="
 							},
@@ -2192,7 +2192,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "Fetching the list of vacancies",
+							"name": "Извлечение списка вакансий",
 							"source": {
 								"$ref": "AAAAAAFpqsLN/uH8LPo="
 							},
@@ -2206,7 +2206,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "send data",
+							"name": "Отправка списка",
 							"source": {
 								"$ref": "AAAAAAFpqsH/a+G0zCE="
 							},
@@ -2221,7 +2221,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "Show page with vacancies",
+							"name": "Показать пользователю список вакансий",
 							"source": {
 								"$ref": "AAAAAAFpqsLBHeHdS/Q="
 							},
@@ -2235,7 +2235,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "Request for except vacancy",
+							"name": "Запрос на удаление вакансий",
 							"source": {
 								"$ref": "AAAAAAFpqsLBHeHdS/Q="
 							},
@@ -2249,7 +2249,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "Delete vacancy",
+							"name": "Удаление вакансии",
 							"source": {
 								"$ref": "AAAAAAFpqsH/a+G0zCE="
 							},
@@ -2263,7 +2263,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "Except vacancy from the list",
+							"name": "Удаление вакансий из списка",
 							"source": {
 								"$ref": "AAAAAAFpqsLN/uH8LPo="
 							},
@@ -2278,7 +2278,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "Send message for success excepting",
+							"name": "Сообщение об успешном удалении",
 							"source": {
 								"$ref": "AAAAAAFpqsH/a+G0zCE="
 							},
@@ -2293,7 +2293,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "successful delete",
+							"name": "Успешное удаление",
 							"source": {
 								"$ref": "AAAAAAFpuUcGKUp/+p8="
 							},
@@ -2308,7 +2308,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "Show page with vacancies",
+							"name": "Показать пользователю измененный список вакансий",
 							"source": {
 								"$ref": "AAAAAAFpqsLBHeHdS/Q="
 							},
@@ -2324,7 +2324,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "List of Vacancies",
+							"name": "Список вакансий",
 							"represent": {
 								"$ref": "AAAAAAFpqsH/a+GzE6M="
 							},
@@ -2336,7 +2336,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "User",
+							"name": "Пользователь",
 							"represent": {
 								"$ref": "AAAAAAFpqsLBHeHckgw="
 							},
@@ -2348,7 +2348,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "System",
+							"name": "Система",
 							"represent": {
 								"$ref": "AAAAAAFpqsLN/eH7bpU="
 							},
@@ -2360,7 +2360,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFpjE8fiDFq1HU="
 							},
-							"name": "Vacancy",
+							"name": "Вакансия",
 							"represent": {
 								"$ref": "AAAAAAFpuUcGKEp+UQ0="
 							},
@@ -2438,8 +2438,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFpjE8fiDFpQ48="
 					},
-					"name": "Role8",
-					"type": ""
+					"name": "Role8"
 				},
 				{
 					"_type": "UMLAttribute",
