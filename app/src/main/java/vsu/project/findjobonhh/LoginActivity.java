@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 // https://developer.android.com/studio/write/app-link-indexing - что-то интересное
-
 // https://futurestud.io/tutorials/android-basic-authentication-with-retrofit - про авторизацию
 
 public class LoginActivity extends AppCompatActivity {
