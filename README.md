@@ -7,7 +7,7 @@ UML диаграммы содержатся в папке - UMLDiagrams
 <br />
 Документация проекта содержится в папке Documents
 
-Ссылка на realtimeboard: https://realtimeboard.com/app/board/o9J_kxnkk_8=/
+Ссылка на realtimeboard: https://realtimeboard.com/welcomeonboard/XlMjdyl7yuPnbH6F98jIQT8KJiR2URoaDAmALKR7RcDXy2LrwJyay0AKwFg0HqH5
 <br />
 Ссылка на Trello: https://trello.com/findjobonhh/home
 <br />
