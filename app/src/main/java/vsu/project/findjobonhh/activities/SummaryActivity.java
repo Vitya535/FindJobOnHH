@@ -1,7 +1,9 @@
-package vsu.project.findjobonhh;
+package vsu.project.findjobonhh.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import vsu.project.findjobonhh.R;
 
 public class SummaryActivity extends AppCompatActivity {
 

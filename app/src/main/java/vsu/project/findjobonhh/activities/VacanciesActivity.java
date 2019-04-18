@@ -1,13 +1,13 @@
-package vsu.project.findjobonhh;
+package vsu.project.findjobonhh.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-public class GetPasswordActivity extends AppCompatActivity {
+public class VacanciesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_get_password);
+        setContentView(R.layout.activity_vacancies);
     }
 }

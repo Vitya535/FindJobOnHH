@@ -1,9 +1,11 @@
-package vsu.project.findjobonhh;
+package vsu.project.findjobonhh.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import vsu.project.findjobonhh.R;
 
 // https://developer.android.com/studio/write/app-link-indexing - что-то интересное
 // https://futurestud.io/tutorials/android-basic-authentication-with-retrofit - про авторизацию
@@ -17,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void transitionToLogup(View view) {
-        Intent intent = new Intent(this, LogupActivity.class);
+        Intent intent = new Intent(this, LogoutActivity.class);
         startActivity(intent);
     }
 

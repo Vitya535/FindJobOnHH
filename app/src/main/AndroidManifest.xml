@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:fullBackupContent="@xml/backup_descriptor">
-        <activity android:name=".LoginActivity">
+        <activity android:name=".activities.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,7 +29,7 @@
                     android:pathPrefix="/login" />
             </intent-filter>
         </activity>
-        <activity android:name=".LogupActivity">
+        <activity android:name=".activities.LogoutActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -48,7 +48,7 @@
                     android:pathPrefix="/logup" />
             </intent-filter>
         </activity>
-        <activity android:name=".SummaryActivity">
+        <activity android:name=".activities.SummaryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -66,7 +66,7 @@
                     android:port="8080" />
             </intent-filter>
         </activity>
-        <activity android:name=".VacanciesActivity">
+        <activity android:name=".activities.VacanciesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -85,7 +85,7 @@
                     android:pathPrefix="/founded_vacancies" />
             </intent-filter>
         </activity>
-        <activity android:name=".GetPasswordActivity">
+        <activity android:name=".activities.GetPasswordActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
