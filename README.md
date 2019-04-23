@@ -12,6 +12,7 @@ https://github.com/Vitya535/FindJobOnHH/tree/master/Documents
 Диаграмма Ганта содержится в папке GanttDiagram
 <br />
 https://github.com/Vitya535/FindJobOnHH/tree/master/GanttDiagram
+<br />
 Ссылка на realtimeboard: https://realtimeboard.com/welcomeonboard/XlMjdyl7yuPnbH6F98jIQT8KJiR2URoaDAmALKR7RcDXy2LrwJyay0AKwFg0HqH5
 <br />
 Ссылка на Trello: https://trello.com/findjobonhh/home
