@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="715dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/ToolbarForTransition"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/resume_input"
+                app:buttonGravity="bottom"
+                app:navigationIcon="?attr/actionModeCloseDrawable"
+                app:title="Создание резюме"></android.support.v7.widget.Toolbar>
+
+            <TextView
+                android:id="@+id/YourResume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="8dp"
+                android:text="Ваше резюме"
+                android:textColor="#BA000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/ContactData"
+                android:layout_width="240dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:text="Контактные данные"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nameAndSurname"
+                android:layout_width="134dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:text="Имя и фамилия"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/FirstnameInput"
+                android:layout_width="375dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/resume_input"
+                android:ems="10"
+                android:hint="Имя"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:onClick="changeFirstnameInputColor"
+                android:paddingStart="10sp"
+                android:text="Виктор"
+                android:textSize="14sp"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/surnameInput"
+                android:layout_width="375dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/resume_input"
+                android:ems="10"
+                android:hint="Фамилия"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:onClick="changeSurnameInputColor"
+                android:paddingStart="10sp"
+                android:text="Кушнеренко"
+                android:textSize="14sp"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/MobilePhone"
+                android:layout_width="180dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="Мобильный телефон"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/MobilePhoneInput"
+                android:layout_width="370dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/resume_input"
+                android:ems="10"
+                android:hint="+7"
+                android:importantForAutofill="no"
+                android:inputType="phone"
+                android:onClick="changePhoneInputColorAndText"
+                android:paddingStart="10sp"
+                android:textSize="14sp"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/mobilePhone"
+                android:layout_width="180dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:text="Город проживания"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
+
+            <EditText
+                android:id="@+id/CityInput"
+                android:layout_width="375dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/resume_input"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:onClick="changeCityInputColor"
+                android:paddingStart="10sp"
+                android:text="Воронеж"
+                android:textSize="14sp"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="8dp"
+                android:text="Основная информация"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:text="Дата рождения"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/resume_input"
+                android:digits="2"
+                android:ems="10"
+                android:hint="День"
+                android:inputType="number"
+                android:paddingStart="10sp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/resume_input"
+                android:ems="10"
+                android:hint="Месяц"
+                android:inputType="number|text"
+                android:paddingStart="10sp" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/resume_input"
+                android:digits="4"
+                android:ems="10"
+                android:hint="Год"
+                android:inputType="number"
+                android:paddingStart="10sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="Пол"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Мужской" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Женский" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:background="@android:color/holo_blue_dark"
+                android:text="Сохранить и опубликовать"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>

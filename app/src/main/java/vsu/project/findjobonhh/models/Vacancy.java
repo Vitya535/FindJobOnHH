@@ -5,6 +5,17 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@EqualsAndHashCode
+@NoArgsConstructor
+@ToString
+@Getter
+@Setter
 public class Vacancy {
 
     @SerializedName("id")
