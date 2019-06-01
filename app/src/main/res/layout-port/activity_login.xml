@@ -1,147 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-
-    <TextView
-        android:id="@+id/Header"
-        android:layout_width="298dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="16dp"
-        android:gravity="center_horizontal"
-        android:text="@string/LoginHeaderText"
-        android:textColor="@android:color/black"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/EmailOrPhoneInput"
-        android:layout_width="384dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="32dp"
-        android:autofillHints=""
-        android:background="@drawable/login_input_style"
-        android:ems="10"
-        android:hint="@string/EmailOrPhoneHint"
-        android:inputType="textEmailAddress|phone"
-        android:padding="8dp"
-        android:textCursorDrawable="@drawable/login_input_cursor_style"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SurnameInput"
-        tools:targetApi="o" />
+    android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/LoginButton"
-        android:layout_width="382dp"
+        android:id="@+id/button4"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:background="@android:color/holo_blue_dark"
-        android:text="@string/LoginButtonText"
-        android:textColor="@android:color/white"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/darker_gray"
+        android:text="Войти"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EmailOrPhoneInput" />
+        app:layout_constraintTop_toBottomOf="@+id/editText9" />
 
     <EditText
-        android:id="@+id/NameInput"
-        android:layout_width="384dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/login_input_style"
+        android:id="@+id/editText10"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="8dp"
         android:ems="10"
-        android:hint="@string/NameHint"
-        android:importantForAutofill="no"
-        android:inputType="textCapWords"
-        android:padding="8dp"
-        android:textCursorDrawable="@drawable/login_input_cursor_style"
+        android:hint="Email или телефон"
+        android:inputType="textEmailAddress|phone"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Header"
-        tools:targetApi="o" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbarForTransition3" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarForTransition3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/resume_input"
+        app:navigationIcon="?attr/actionModeCloseDrawable"
+        app:title="Вход в личный кабинет"></android.support.v7.widget.Toolbar>
 
     <EditText
-        android:id="@+id/SurnameInput"
-        android:layout_width="384dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/login_input_style"
-        android:ems="10"
-        android:hint="@string/SurnameHint"
-        android:importantForAutofill="no"
-        android:inputType="textCapWords"
-        android:labelFor="@+id/SurnameLabel"
-        android:padding="8dp"
-        android:textCursorDrawable="@drawable/login_input_cursor_style"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/NameInput"
-        tools:targetApi="o" />
-
-    <TextView
-        android:id="@+id/IsAlreadyLoginLabel"
-        android:layout_width="285dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="32dp"
-        android:gravity="center_vertical"
-        android:text="@string/IsAlreadyLoginLabelText"
-        android:textColor="@color/black"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/Logup"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LoginButton" />
-
-    <TextView
-        android:id="@+id/Logup"
-        android:layout_width="75dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="32dp"
-        android:gravity="center_vertical"
-        android:onClick="transitionToLogup"
-        android:text="@string/LogupText"
-        android:textColor="@android:color/holo_blue_dark"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/IsAlreadyLoginLabel"
-        app:layout_constraintTop_toBottomOf="@+id/LoginButton" />
-
-    <TextView
-        android:id="@+id/LoginFromWebSites"
-        android:layout_width="378dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="86dp"
-        android:gravity="center_vertical"
-        android:text="@string/LoginFromWebSitesLabelText"
-        android:textColor="@color/black"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LoginButton" />
-
-    <ImageView
-        android:id="@+id/LoginFromVK"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/editText9"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
-        android:contentDescription="@string/VkIconText"
-        android:scaleType="centerInside"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="Пароль"
+        android:inputType="textEmailAddress|phone"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LoginFromWebSites"
-        app:srcCompat="@drawable/vk" />
-
+        app:layout_constraintTop_toBottomOf="@+id/editText10" />
 </android.support.constraint.ConstraintLayout>
