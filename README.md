@@ -4,6 +4,9 @@
 <br />
 Задача "Поиск работы на HeadHunter"
 
+Разработанное приложение содержится в папке app по адресу
+https://github.com/Vitya535/FindJobOnHH/tree/master/app
+<br />
 UML диаграммы содержатся в папке UMLDiagrams по адресу
 https://github.com/Vitya535/FindJobOnHH/tree/master/UMLDiagrams
 <br />
@@ -16,7 +19,7 @@ https://github.com/Vitya535/FindJobOnHH/tree/master/GanttDiagram
 <br />
 Ссылка на realtimeboard: https://realtimeboard.com/welcomeonboard/XlMjdyl7yuPnbH6F98jIQT8KJiR2URoaDAmALKR7RcDXy2LrwJyay0AKwFg0HqH5
 <br />
-Ссылка на Trello: https://trello.com/findjobonhh/home
+Ссылка на Trello Команды: https://trello.com/findjobonhh
 <br />
 Ссылка на канал в Slack: https://findjobonhh.slack.com/messages/CH7RX1F6W/
 
