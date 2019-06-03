@@ -1,5 +1,7 @@
+
 package vsu.project.findjobonhh.models;
 
+import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
@@ -14,13 +16,15 @@ import lombok.ToString;
 @ToString
 @Getter
 @Setter
-public class ContactType {
-
-    @SerializedName("id")
-    @Expose
-    private String id;
+public class Contacts {
 
     @SerializedName("name")
     @Expose
-    private String name;
+    public String name;
+    @SerializedName("email")
+    @Expose
+    public Object email;
+    @SerializedName("phones")
+    @Expose
+    public List<Phone> phones = null;
 }

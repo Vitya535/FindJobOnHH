@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="currency_list">
+        <item>RUR</item>
+        <item>EUR</item>
+        <item>руб.</item>
+        <item>USD</item>
+    </string-array>
+
+    <string-array name="currency_list_2">
+        <item>руб.</item>
+        <item>EUR</item>
+        <item>USD</item>
+    </string-array>
+
+    <string-array name="city_list">
+        <item>Воронеж</item>
+        <item>Краснодар</item>
+        <item>Владивосток</item>
+        <item>Белгород</item>
+    </string-array>
+
+    <string-array name="months_list">
+        <item>Месяц</item>
+        <item>января</item>
+        <item>февраля</item>
+        <item>марта</item>
+        <item>апреля</item>
+        <item>мая</item>
+        <item>июня</item>
+        <item>июля</item>
+        <item>августа</item>
+        <item>сентября</item>
+        <item>октября</item>
+        <item>ноября</item>
+        <item>декабря</item>
+    </string-array>
+</resources>

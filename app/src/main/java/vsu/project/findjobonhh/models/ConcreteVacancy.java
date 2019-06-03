@@ -15,7 +15,7 @@ import lombok.ToString;
 @ToString
 @Getter
 @Setter
-public class Vacancy {
+public class ConcreteVacancy {
 
     @SerializedName("id")
     @Expose
@@ -26,13 +26,23 @@ public class Vacancy {
     @SerializedName("area")
     @Expose
     public Area area;
-    @SerializedName("employer")
+    @SerializedName("salary")
     @Expose
-    public Employer employer;
+    public Salary salary;
+    @SerializedName("experience")
+    @Expose
+    public Experience experience;
+    @SerializedName("schedule")
+    @Expose
+    public Schedule schedule;
+    @SerializedName("contacts")
+    @Expose
+    public Contacts contacts;
+    @SerializedName("description")
+    @Expose
+    public String description;
     @SerializedName("created_at")
     @Expose
     public String createdAt;
-    @SerializedName("snippet")
-    @Expose
-    public Snippet snippet;
+
 }

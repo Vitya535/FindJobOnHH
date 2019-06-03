@@ -1,3 +1,4 @@
+
 package vsu.project.findjobonhh.models;
 
 import com.google.gson.annotations.Expose;
@@ -18,17 +19,14 @@ public class Salary {
 
     @SerializedName("from")
     @Expose
-    private Integer from;
-
+    public Integer from;
     @SerializedName("to")
     @Expose
-    private Integer to;
-
-    @SerializedName("gross")
-    @Expose
-    private Boolean gross;
-
+    public Object to;
     @SerializedName("currency")
     @Expose
-    private String currency;
+    public String currency;
+    @SerializedName("gross")
+    @Expose
+    public Boolean gross;
 }

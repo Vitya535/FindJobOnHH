@@ -1,3 +1,4 @@
+
 package vsu.project.findjobonhh.models;
 
 import com.google.gson.annotations.Expose;
@@ -14,17 +15,12 @@ import lombok.ToString;
 @ToString
 @Getter
 @Setter
-public class Photo {
+public class Employer {
 
     @SerializedName("id")
     @Expose
-    private String id;
-
-    @SerializedName("small")
+    public String id;
+    @SerializedName("name")
     @Expose
-    private String small;
-
-    @SerializedName("medium")
-    @Expose
-    private String medium;
+    public String name;
 }

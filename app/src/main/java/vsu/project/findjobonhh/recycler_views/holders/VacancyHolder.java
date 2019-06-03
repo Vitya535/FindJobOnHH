@@ -20,8 +20,6 @@ public class VacancyHolder extends RecyclerView.ViewHolder {
         vacancyCompany = itemView.findViewById(R.id.VacancyCompany);
         vacancyDescription = itemView.findViewById(R.id.VacancyDescription);
         vacancyDate = itemView.findViewById(R.id.VacancyDate);
-        vacancyContacts = itemView.findViewById(R.id.VacancyContacts);
-        vacancyRespond = itemView.findViewById(R.id.VacancyRespond);
         itemLayout = itemView.findViewById(R.id.item_layout);
     }
 

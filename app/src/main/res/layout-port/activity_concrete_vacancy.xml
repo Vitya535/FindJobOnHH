@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -13,14 +11,17 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/ToolbarForTransition"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_gravity="top"
                 android:background="@drawable/resume_input"
+                android:elevation="8dp"
                 android:pointerIcon="none"
+                android:visibility="visible"
                 app:buttonGravity="top"
                 app:navigationIcon="?attr/actionModeCloseDrawable"
                 app:popupTheme="@style/AppTheme"
@@ -29,7 +30,7 @@
             </android.support.v7.widget.Toolbar>
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/VacancyDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -38,7 +39,7 @@
                 android:text="31 мая 2019" />
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/VacancyName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -50,7 +51,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView16"
+                android:id="@+id/VacancySalary"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:layout_marginStart="8dp"
@@ -60,7 +61,7 @@
                 android:textColor="#000000" />
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/CityLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -71,7 +72,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/CityName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -81,7 +82,7 @@
                 android:textColor="#000000" />
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/ExperienceLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -92,7 +93,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView20"
+                android:id="@+id/ExperienceName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -102,7 +103,7 @@
                 android:textColor="#000000" />
 
             <TextView
-                android:id="@+id/textView21"
+                android:id="@+id/ScheduleLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -113,7 +114,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView22"
+                android:id="@+id/ScheduleName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -129,61 +130,12 @@
                 android:layout_marginTop="8dp"
                 android:background="#79A09393" />
 
-            <TextView
-                android:id="@+id/textView23"
+            <org.sufficientlysecure.htmltextview.HtmlTextView
+                android:id="@+id/Description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:text="Обязанности:"
-                android:textColor="#000000"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView24"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:text="1. Разработка дизайн проектов в соответствии с пожеланиями клиентов;\n2. Работа с печатным станком (обучение предусмотрено);\n3. Выполнение поручений руководства"
-                android:textColor="#000000" />
-
-            <TextView
-                android:id="@+id/textView25"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:text="Требования:"
-                android:textColor="#000000"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView26"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:text="1. Профильное образование;\n2. Умение работать с графическими редакторами;\n3. Грамотная письменная и устная речь;"
-                android:textColor="#000000" />
-
-            <TextView
-                android:id="@+id/textView27"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:text="Условия:"
-                android:textColor="#000000"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView28"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:text="1. Стабильная зп+премия;\n2. График работы 5/2;\n3. Работа в офисе с 8:00 до 17:00, удаленно не рассматриваем"
                 android:textColor="#000000" />
 
             <View
@@ -204,7 +156,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView30"
+                android:id="@+id/ContactsName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -214,7 +166,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView31"
+                android:id="@+id/ContactsPhone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -223,7 +175,7 @@
                 android:textColor="#000000" />
 
             <TextView
-                android:id="@+id/textView32"
+                android:id="@+id/ContactsEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -231,6 +183,8 @@
                 android:layout_marginBottom="8dp"
                 android:text="voronezh.azsreklama@mail.ru"
                 android:textColor="#000000" />
+
+
         </LinearLayout>
     </ScrollView>
 

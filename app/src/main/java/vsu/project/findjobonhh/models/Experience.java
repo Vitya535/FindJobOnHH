@@ -1,3 +1,4 @@
+
 package vsu.project.findjobonhh.models;
 
 import com.google.gson.annotations.Expose;
@@ -14,21 +15,12 @@ import lombok.ToString;
 @ToString
 @Getter
 @Setter
-public class ContactValue {
+public class Experience {
 
-    @SerializedName("country")
+    @SerializedName("id")
     @Expose
-    private String country;
-
-    @SerializedName("city")
+    public String id;
+    @SerializedName("name")
     @Expose
-    private String city;
-
-    @SerializedName("number")
-    @Expose
-    private String number;
-
-    @SerializedName("formatted")
-    @Expose
-    private String formatted;
+    public String name;
 }

@@ -1,3 +1,4 @@
+
 package vsu.project.findjobonhh.models;
 
 import com.google.gson.annotations.Expose;
@@ -14,21 +15,12 @@ import lombok.ToString;
 @ToString
 @Getter
 @Setter
-public class Address {
+public class Area {
 
-    @SerializedName("city")
+    @SerializedName("id")
     @Expose
-    private String city;
-
-    @SerializedName("street")
+    public String id;
+    @SerializedName("name")
     @Expose
-    private String street;
-
-    @SerializedName("building")
-    @Expose
-    private String building;
-
-    @SerializedName("description")
-    @Expose
-    private String description;
+    public String name;
 }

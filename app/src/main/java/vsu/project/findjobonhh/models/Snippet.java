@@ -1,4 +1,8 @@
+
 package vsu.project.findjobonhh.models;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -11,15 +15,9 @@ import lombok.ToString;
 @ToString
 @Getter
 @Setter
-public class Contact {
+public class Snippet {
 
-    private ContactType contactType;
-
-    private ContactValue contactValue;
-
-    private Boolean preferred;
-
-    private String comment;
-
-    private Boolean verified;
+    @SerializedName("responsibility")
+    @Expose
+    public String responsibility;
 }

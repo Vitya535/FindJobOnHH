@@ -6,97 +6,112 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="410dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:onClick="transitionToSupport"
+        android:paddingStart="10dp"
+        android:text="Помощь"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/divider9" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="395dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:background="#79A09393"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
     <View
         android:id="@+id/divider5"
         android:layout_width="wrap_content"
         android:layout_height="8dp"
+        android:layout_marginStart="8dp"
         android:background="#79A09393"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="50dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ToolbarForTransition" />
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbarForTransition"
-        android:layout_width="match_parent"
+        android:id="@+id/ToolbarForTransition"
+        android:layout_width="410dp"
         android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/resume_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:title="Еще"></android.support.v7.widget.Toolbar>
 
     <TextView
-        android:id="@+id/textView33"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Регистрация"
-        android:textColor="#020202"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="@+id/divider5"
-        tools:layout_editor_absoluteX="16dp" />
-
-    <View
-        android:id="@+id/divider6"
-        android:layout_width="395dp"
-        android:layout_height="1dp"
-        android:background="#79A09393"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="112dp" />
-
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="8dp"
-        android:text="Вход"
+        android:id="@+id/textView35"
+        android:layout_width="420dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:onClick="transitionToMainPage"
+        android:paddingStart="10dp"
+        android:text="Главная страница"
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView33" />
-
-    <View
-        android:id="@+id/divider7"
-        android:layout_width="395dp"
-        android:layout_height="1dp"
-        android:background="#79A09393"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="176dp" />
-
-    <TextView
-        android:id="@+id/textView35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:text="Выйти"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintTop_toBottomOf="@+id/textView34"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintTop_toBottomOf="@+id/ToolbarForTransition" />
 
     <View
         android:id="@+id/divider9"
         android:layout_width="395dp"
         android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         android:background="#79A09393"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="237dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
 
     <TextView
         android:id="@+id/textView36"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Помощь"
+        android:layout_width="410dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center_vertical"
+        android:onClick="transitionToLoadResume"
+        android:paddingStart="10dp"
+        android:text="Загрузить резюме"
         android:textColor="#000000"
         android:textSize="18sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="251dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/divider9" />
 
     <View
         android:id="@+id/divider8"
         android:layout_width="wrap_content"
         android:layout_height="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
         android:background="#79A09393"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="290dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
 </android.support.constraint.ConstraintLayout>

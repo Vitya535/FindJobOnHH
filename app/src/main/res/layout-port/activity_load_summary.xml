@@ -45,7 +45,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/nameAndSurname"
+                android:id="@+id/NameAndSurname"
                 android:layout_width="134dp"
                 android:layout_height="26dp"
                 android:layout_marginStart="16dp"
@@ -68,14 +68,13 @@
                 android:hint="Имя"
                 android:importantForAutofill="no"
                 android:inputType="textPersonName"
-                android:onClick="changeFirstnameInputColor"
                 android:paddingStart="10sp"
                 android:text="Виктор"
                 android:textSize="14sp"
                 tools:targetApi="o" />
 
             <EditText
-                android:id="@+id/surnameInput"
+                android:id="@+id/SurnameInput"
                 android:layout_width="375dp"
                 android:layout_height="44dp"
                 android:layout_marginStart="16dp"
@@ -114,7 +113,6 @@
                 android:hint="+7"
                 android:importantForAutofill="no"
                 android:inputType="phone"
-                android:onClick="changePhoneInputColorAndText"
                 android:paddingStart="10sp"
                 android:textSize="14sp"
                 tools:targetApi="o" />
@@ -130,25 +128,18 @@
                 android:textSize="18sp"
                 android:textStyle="bold"></TextView>
 
-            <EditText
-                android:id="@+id/CityInput"
+            <Spinner
+                android:id="@+id/CitySpinner"
                 android:layout_width="375dp"
                 android:layout_height="44dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:background="@drawable/resume_input"
-                android:ems="10"
-                android:importantForAutofill="no"
-                android:inputType="text"
-                android:onClick="changeCityInputColor"
-                android:paddingStart="10sp"
-                android:text="Воронеж"
-                android:textSize="14sp"
-                tools:targetApi="o" />
+                android:entries="@array/city_list" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/MainInfoLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -160,7 +151,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/DateOfBirthLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -171,45 +162,40 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/DayInput"
                 android:layout_width="60dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="8dp"
                 android:background="@drawable/resume_input"
-                android:digits="2"
                 android:ems="10"
                 android:hint="День"
                 android:inputType="number"
                 android:paddingStart="10sp" />
 
-            <EditText
-                android:id="@+id/editText2"
+            <Spinner
+                android:id="@+id/MonthsSpinner"
                 android:layout_width="100dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="16dp"
                 android:background="@drawable/resume_input"
-                android:ems="10"
-                android:hint="Месяц"
-                android:inputType="number|text"
-                android:paddingStart="10sp" />
+                android:entries="@array/months_list" />
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/YearInput"
                 android:layout_width="60dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/resume_input"
-                android:digits="4"
                 android:ems="10"
                 android:hint="Год"
                 android:inputType="number"
                 android:paddingStart="10sp" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/SexLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -219,34 +205,118 @@
                 android:textStyle="bold" />
 
             <RadioGroup
+                android:id="@+id/GroupButtonsSex"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp">
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/RadiobuttonMale"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Мужской" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/RadiobuttonFemale"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Женский" />
             </RadioGroup>
 
+            <TextView
+                android:id="@+id/ExperienceLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="Опыт работы"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/GroupButtonsExperience"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/RadiobuttonDontHave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_weight="1"
+                    android:text="Нету" />
+
+                <RadioButton
+                    android:id="@+id/RadiobuttonHave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_weight="1"
+                    android:text="Есть" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/SpecializationLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="Специальность"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/SpecializationInput"
+                android:layout_width="375dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/resume_input"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:text="Менеджер по продажам автомобилей" />
+
+            <EditText
+                android:id="@+id/SalaryInput"
+                android:layout_width="300dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/resume_input"
+                android:ems="10"
+                android:hint="Зарплата на руки"
+                android:inputType="textPersonName"
+                android:paddingStart="10dp" />
+
+            <Spinner
+                android:id="@+id/CurrencySpinner2"
+                android:layout_width="100dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:entries="@array/currency_list_2" />
+
             <Button
-                android:id="@+id/button"
+                android:id="@+id/SaveAndPublish"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="32dp"
+                android:layout_marginBottom="64dp"
                 android:background="@android:color/holo_blue_dark"
-                android:text="Сохранить и опубликовать"
+                android:onClick="loadResume"
+                android:text="Загрузить"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
 
