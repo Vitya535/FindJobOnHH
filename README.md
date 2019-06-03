@@ -16,6 +16,9 @@ https://github.com/Vitya535/FindJobOnHH/tree/master/UMLDiagrams
 Документация проекта содержится в папке Documents по адресу
 https://github.com/Vitya535/FindJobOnHH/tree/master/Documents
 <br />
+Презентация проекта содержится в папке Documents по адресу
+https://github.com/Vitya535/FindJobOnHH/tree/master/Documents
+<br />
 Диаграмма Ганта содержится в папке GanttDiagram
 <br />
 https://github.com/Vitya535/FindJobOnHH/tree/master/GanttDiagram
