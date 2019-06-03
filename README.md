@@ -7,6 +7,9 @@
 Разработанное приложение содержится в папке app по адресу
 https://github.com/Vitya535/FindJobOnHH/tree/master/app
 <br />
+Демонстрационное видео находится в папке Media по адресу
+https://github.com/Vitya535/FindJobOnHH/tree/master/Media
+<br />
 UML диаграммы содержатся в папке UMLDiagrams по адресу
 https://github.com/Vitya535/FindJobOnHH/tree/master/UMLDiagrams
 <br />
